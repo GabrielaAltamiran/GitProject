@@ -1,0 +1,96 @@
+
+Programacion M8@CM-11 MINGW32 ~/Desktop/Mio/GitConflictosBash (main)
+$ git int
+git: 'int' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+Programacion M8@CM-11 MINGW32 ~/Desktop/Mio/GitConflictosBash (main)
+$ git init
+Initialized empty Git repository in C:/Users/Programacion M8/Desktop/Mio/GitConflictosBash/.git/
+
+Programacion M8@CM-11 MINGW32 ~/Desktop/Mio/GitConflictosBash (master)
+$  git remote add origin https://github.com/GabrielaAltamiran/GitProject.git
+
+Programacion M8@CM-11 MINGW32 ~/Desktop/Mio/GitConflictosBash (master)
+$ git remote
+origin
+
+Programacion M8@CM-11 MINGW32 ~/Desktop/Mio/GitConflictosBash (master)
+$ git remote -v
+origin  https://github.com/GabrielaAltamiran/GitProject.git (fetch)
+origin  https://github.com/GabrielaAltamiran/GitProject.git (push)
+
+Programacion M8@CM-11 MINGW32 ~/Desktop/Mio/GitConflictosBash (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+Programacion M8@CM-11 MINGW32 ~/Desktop/Mio/GitConflictosBash (master)
+$ ^C
+
+Programacion M8@CM-11 MINGW32 ~/Desktop/Mio/GitConflictosBash (master)
+$  git push --set-upstream origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/GabrielaAltamiran/GitProject.git'
+
+Programacion M8@CM-11 MINGW32 ~/Desktop/Mio/GitConflictosBash (master)
+$ $ git branch
+bash: $: command not found
+
+Programacion M8@CM-11 MINGW32 ~/Desktop/Mio/GitConflictosBash (master)
+$ $ git branch -m master main
+bash: $: command not found
+
+Programacion M8@CM-11 MINGW32 ~/Desktop/Mio/GitConflictosBash (master)
+$ git branch
+
+Programacion M8@CM-11 MINGW32 ~/Desktop/Mio/GitConflictosBash (master)
+$ git branch -m master main
+
+Programacion M8@CM-11 MINGW32 ~/Desktop/Mio/GitConflictosBash (main)
+$ git push --set-upstream origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/GabrielaAltamiran/GitProject.git'
+
+Programacion M8@CM-11 MINGW32 ~/Desktop/Mio/GitConflictosBash (main)
+$ git branch
+
+Programacion M8@CM-11 MINGW32 ~/Desktop/Mio/GitConflictosBash (main)
+$ git add .
+git commit -m "Initial commit"
+[main (root-commit) 59f0ca2] Initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ComandoDeconflictoGitBas.txt
+
+Programacion M8@CM-11 MINGW32 ~/Desktop/Mio/GitConflictosBash (main)
+$ git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+Programacion M8@CM-11 MINGW32 ~/Desktop/Mio/GitConflictosBash (main)
+$ git push --set-upstream origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 232 bytes | 232.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/GabrielaAltamiran/GitProject.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Programacion
